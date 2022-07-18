@@ -1,0 +1,13 @@
+div {
+	min-height: 200px;
+	max-height: 400px;
+}
+
+div > img {
+	width: 100%;
+	height: 60%;
+}
+
+div > p {
+	margin: 0;
+}
