@@ -1,11 +1,11 @@
 
 import "./App.css";
-import Flags from "./components/Country";
+import Country from "./components/Country";
 
 function App() {
 	return (
 		<div className="App">
-			<Flags />
+			<Country />
 		</div>
 	);
 }

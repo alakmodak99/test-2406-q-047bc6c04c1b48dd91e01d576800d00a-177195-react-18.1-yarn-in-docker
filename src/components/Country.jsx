@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import SingleCountry from "./SingleCountry";
 
-export default function () {
+export default function Country() {
 	const [countries, setCountries] = useState([]);
 	const inputRef = useRef(null);
 	const fetchCountries = async (url) => {

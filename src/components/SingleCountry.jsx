@@ -6,7 +6,7 @@ export default function SingleCountry({ countryData }) {
 			className={`country-list-${countryData.id}`}
 			style={{ minHeight: `180px`, backgroundColor: "snow" }}
 		>
-			<img src={countryData.flag} />
+			<img src={countryData.flag} alt="Country_flag"/>
 			<div style={{marginLeft:"10px"}}>
 				<h3>{countryData.name}</h3>
 				<p>Population: {countryData.population}</p>
